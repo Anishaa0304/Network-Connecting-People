@@ -1,0 +1,115 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+
+
+.sidebar {
+    position: sticky;
+    top:80px;
+    flex:0.2;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+}
+.sidebar__avatar {
+    margin-bottom: 10px;
+
+
+}
+.sidebar__top > h4 {
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+}
+.sidebar__top > h2 {
+    font-size:18px;
+    color:white;
+}
+.sidebar__top{
+    
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    border:1.5px solid black;
+    border-bottom:0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color:#1b1b1b;
+    padding-bottom:10px;
+
+}
+.sidebar__top > img {
+    margin-bottom:-20px;
+    width:100%;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit:cover;
+}
+.sidebar__stat{
+    margin-top: 10px;
+    display:flex;
+    justify-content:space-between;
+}
+.sidebar__stat > p {
+    color:white;
+    font-size:15px;
+    font-weight: 600;
+}
+.sidebar__stats {
+    padding:10px;
+    margin-bottom: 10px;
+    border:0.5px solid black;
+    background-color:#1b1b1b;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.sidebar__statNumber {
+    font-weight: bold;
+    color:red !important;
+}
+.sidebar__bottom {
+    text-align:left;
+    padding:10px;
+    margin-top: 20px;
+    border:1px solid black;
+    background-color:#1b1b1b;
+    border-radius: 10px;
+    
+}
+.sidebar__bottom > p {
+    font-weight: bolder;
+    font-size: 23px;
+    padding-bottom:10px;
+    color:rgb(255, 4, 4);
+}
+.sidebar__recentItem {
+    display: flex;
+    font-size: 15px;
+    color:white;
+    font-weight: bolder;
+    cursor:pointer;
+    margin-bottom:5px;
+    padding:5px;
+}
+.sidebar__recentItem:hover{
+    background-color:#3c3c3c;
+    border-radius: 10px;
+    cursor:pointer;
+    color:white;
+}
+.sidebar__hash{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+h5{
+    color:white;
+}
+h5:hover{
+    background-color:#3c3c3c;
+    border-radius: 10px;
+    cursor:pointer;
+    color:white;
+}
